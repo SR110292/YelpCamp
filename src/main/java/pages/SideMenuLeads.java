@@ -19,17 +19,17 @@ public class SideMenuLeads extends BrowserOnAndOff{
 	
 	public CreateLeadPage createlead() {
 		driver.findElementByLinkText("Create Lead").click();
-		return new CreateLeadPage();
+		return new CreateLeadPage();//goes to create lead page
 	}
 	
 	public FindLeadsPage findleads() {
 		driver.findElementByLinkText("Find Leads").click();
-		return new FindLeadsPage();
+		return new FindLeadsPage();// goes to findleadspage
 	}
 	
 	public MergeLeadsPage mergeleads() {
 		driver.findElementByLinkText("Merge Leads").click();
-		return new MergeLeadsPage();
+		return new MergeLeadsPage();// goes to mergeleadspage
 	}
 	
 	public UploadLeadsPage uploadleads() {
