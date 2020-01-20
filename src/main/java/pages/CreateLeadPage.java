@@ -20,7 +20,7 @@ public class CreateLeadPage extends BrowserOnAndOff{
 
 	public CreateLeadPage companyname(String name) {
 		driver.findElement(By.id("createLeadForm_companyName")).sendKeys(name);
-		return this;	
+		return this;	//control goes to the same page
 	}
 
 	public CreateLeadPage forename(String name) {
